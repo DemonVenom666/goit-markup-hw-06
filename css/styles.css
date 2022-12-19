@@ -324,6 +324,81 @@ img {
     transition: background var(--primary-transition);
 }
 
+.form-subscription {
+    outline: 1px solid tomato;
+    margin-left: 93px;
+}
+
+.subscription {
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.style-subscription {
+    text-align: center;
+}
+
+.style-subscription input {
+    margin: 0;
+    padding: 10px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    width: 358px;
+    height: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    /* identical to box height, or 125% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.style-subscription input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.button-subscription {
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.icon-subscription {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
 /*Сторінка Cтудія*/
 
 /*Секція герой*/
