@@ -1002,6 +1002,8 @@ textarea {
 }
 
 .terms-checkbox {
+    position: relative;
+    padding-left: 24px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -1013,7 +1015,28 @@ textarea {
 }
 
 .icon-checkbox {
-    vertical-align: middle;
+    appearance: none;
+}
+
+.icon-license {
+    position: absolute;
+    left: 60px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-right: 8px;
+    user-select: none;
+    
+    border: 2px solid var(--primary-color);
+    border-radius: 2px;
+    transition: background var(--primary-transition), border var(--primary-transition);
+}
+
+.icon-checkbox:checked ~ .icon-license {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    background-origin: border-box;
+    transition: background var(--primary-transition), border var(--primary-transition);
 }
 
 .link-checkbox {
